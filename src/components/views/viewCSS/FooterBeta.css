@@ -1,0 +1,7 @@
+.linkWord{
+    text-decoration-line: none;
+}
+
+.linkWord:hover{
+    font-weight: bold;
+}

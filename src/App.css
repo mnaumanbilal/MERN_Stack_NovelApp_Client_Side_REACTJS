@@ -1,0 +1,46 @@
+/* This is app.css file content */
+
+
+
+.menuImg{
+    width:50%;
+    margin-top: 1%;
+}
+
+#menuImg{
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+#menuImg{
+    width:100%;
+}        
+}
+
+.Link {
+    color: black;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Link:hover{
+    text-decoration-line:none;
+    text-decoration-color: black;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .dropdown-register{
+        margin-top: 0%;
+    }
+}
+
+@media screen and (min-width:1000px){
+
+    .dropdown-register{
+        font-variant: normal;
+        margin-top: 0.7%;
+    }
+}

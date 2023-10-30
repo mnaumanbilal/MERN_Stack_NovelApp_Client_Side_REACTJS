@@ -1,0 +1,55 @@
+.novelName{
+    color: black;
+    font-size: xx-large;
+    font-weight: 300;
+    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading1{
+
+    color: black;
+    font-size:xx-large ;
+    font-weight: 300;
+    font-family:  'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+.chp{
+    font-size: large;
+    margin: 1%;
+    padding: 3%;
+}
+
+.previousChpBtn{
+
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10%;
+
+}
+
+@media screen and (max-width:1000px) {
+    .previousChpBtn{
+
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 10%;
+    
+    }
+
+    .nextChpBtn{
+        width: 50%;
+        float: right;
+        margin: 10%;
+    }
+}
+
+.nextChpBtn{
+    width: auto;
+    float: right;
+    margin: 10%;
+}

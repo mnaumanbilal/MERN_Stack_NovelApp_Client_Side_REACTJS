@@ -1,0 +1,40 @@
+
+.profileBox{
+    display: flex;
+    flex-direction: row;
+    padding:2%
+}
+
+.profileImage{
+
+    border:2px solid black;
+    border-radius:50%;
+    width:15em;
+    height:15em;
+}
+
+.profileInfoBox{
+
+    margin-left:4%;
+    margin-top: 2%;
+}
+
+.img1{
+    width: 15rem;
+    /* height: calc(500px * .4); */
+    height: 15rem;
+    object-fit: cover;
+    border-radius:50%
+}
+
+@media screen and (max-width:1100px) {
+
+    .img1{
+        width: 11rem;
+        /* height: calc(500px * .4); */
+        height: 11rem;
+        object-fit: cover;
+        border-radius:50%;
+    }
+    
+}
